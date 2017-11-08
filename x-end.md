@@ -3,7 +3,7 @@ title: X-end Idler Issue
 description: Illustrations of issues with X-end Idler on a Prusa MK2S kit
 display_gitinfo: false
 header: img/broken-x-end-idler07.jpg
-permalink: x-end/
+permalink: x-end
 ---
 
 # X-end Idler Assembly Troubles
