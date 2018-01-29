@@ -20,13 +20,34 @@ permalink: /forsale
 <img src="img/sale/LCDs-philips01.jpg" alt="PHILIPS 19PFL3403/10" style="width: 300px;"/>
 <img src="img/sale/LCDs-philips02.jpg" alt="PHILIPS 19PFL3403/10" style="width: 300px;"/>
 
-# Tektronix 465B 100Mhz Analog Oscilloscope
+# Electronics Tools
+
+## Tektronix 465B 100Mhz Analog Oscilloscope
 <img src="img/sale/Tektronix01.jpg" alt="TEKTRONIX 465B" style="width: 300px;"/>
 <img src="img/sale/Tektronix02.jpg" alt="TEKTRONIX 465B" style="width: 300px;"/>
 <img src="img/sale/Tektronix-Probes.jpg" alt="TEKTRONIX 465B" style="width: 300px;"/>
 <img src="img/sale/Tektronix-Case.jpg" alt="TEKTRONIX 465B" style="width: 300px;"/>
 
-# M-Audio Firewire 410 Soundcard
+## Soldering Equipment
+* Aoyue soldering station
+* wire sponge cleaner
+* USB fan
+
+# Audio Electronics
+
+## M-Audio Firewire 410 Soundcard
 <img src="img/sale/MAudio01.jpg" alt="MAudio Firewire 410" style="width: 300px;"/>
 <img src="img/sale/MAudio02.jpg" alt="MAudio Firewire 410" style="width: 300px;"/>
 <img src="img/sale/MAudio03.jpg" alt="MAudio Firewire 410" style="width: 300px;"/>
+
+## Beringer Xenyx Mixer
+
+
+# Hand & Power Tools
+
+## Dremel 300 + Acessories
+* Dremel 300
+* Case/Bag
+* Bits & Accessories
+* Dremel Workstand / Drill press
+* Dremel line & circle cutting / routing attachment
