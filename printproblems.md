@@ -12,13 +12,13 @@ While assembling my Prusa MK2S kit I hit a snag at [step 7](http://manual.prusa3
 
 ## Bearing Stuck
 
-<img src="img/v2cal01.jpg" alt="Bed Level Problem" style="width: 800px;"/>
+<img src="img/bed-level/v2cal01.jpg" alt="Bed Level Problem" style="width: 800px;"/>
 
-<img src="img/v2cal02.jpg" alt="Bed Level Problem" style="width: 800px;"/>
+<img src="img/bed-level/v2cal02.jpg" alt="Bed Level Problem" style="width: 800px;"/>
 
-<img src="img/v2cal03.jpg" alt="Bed Level Problem" style="width: 800px;"/>
+<img src="img/bed-level/v2cal03.jpg" alt="Bed Level Problem" style="width: 800px;"/>
 
-<img src="img/v2cal-treefrog.jpg" alt="Bed Level Problem" style="width: 800px;"/>
+<img src="img/bed-level/v2cal-treefrog.jpg" alt="Bed Level Problem" style="width: 800px;"/>
 
 
 
