@@ -2,7 +2,7 @@
 title: Bed Level Issues
 description: Problems with Printing Height / Prusa MK2S kit
 display_gitinfo: false
-header: img/prusa/bed-level-treefrog.jpg
+header: /img/prusa/bedlevel-treefrog.jpg
 permalink: bedlevel
 ---
 

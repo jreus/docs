@@ -1,5 +1,5 @@
 ---
-title: Bed Level Issues
+title: Deformed Prints
 description: Problems with Prusa MK2S kit bed height
 display_gitinfo: false
 header: img/v2cal-freefrog.jpg
