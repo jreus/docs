@@ -2,7 +2,7 @@
 title: X-end Idler Issue
 description: Illustrations of issues with X-end Idler on a Prusa MK2S kit
 display_gitinfo: false
-header: img/broken-x-end-idler07.jpg
+header: img/prusa/broken-x-end-idler07.jpg
 permalink: x-end
 ---
 
@@ -20,20 +20,20 @@ I managed to hack together a (temporary?) fix by filing away the broken plastic 
 
 Here's the bearing stuck after the hex screw did its damage...
 
-<img src="img/broken-x-end-idler01.jpg" alt="X-end Idler" style="width: 300px;"/>
+<img src="img/prusa/broken-x-end-idler01.jpg" alt="X-end Idler" style="width: 300px;"/>
 
-<img src="img/broken-x-end-idler02.jpg" alt="X-end Idler" style="width: 600px;"/>
+<img src="img/prusa/broken-x-end-idler02.jpg" alt="X-end Idler" style="width: 600px;"/>
 
 ## And the mess after Removing the Bearing
 
-<img src="img/broken-x-end-idler03.jpg" alt="X-end Idler" style="width: 600px; align: left;"/>
+<img src="img/prusa/broken-x-end-idler03.jpg" alt="X-end Idler" style="width: 600px; align: left;"/>
 
-<img src="img/broken-x-end-idler04.jpg" alt="X-end Idler" style="width: 600px; align: left;"/>
+<img src="img/prusa/broken-x-end-idler04.jpg" alt="X-end Idler" style="width: 600px; align: left;"/>
 
-<img src="img/broken-x-end-idler05.jpg" alt="X-end Idler" style="width: 600px; align: left;"/>
+<img src="img/prusa/broken-x-end-idler05.jpg" alt="X-end Idler" style="width: 600px; align: left;"/>
 
-<img src="img/broken-x-end-idler06.jpg" alt="X-end Idler" style="width: 600px; align: left;"/>
+<img src="img/prusa/broken-x-end-idler06.jpg" alt="X-end Idler" style="width: 600px; align: left;"/>
 
 ## And my Attempt at a fix
 
-<img src="img/broken-x-end-idler10.jpg" alt="X-end Idler" style="width: 600px; align: left;"/>
+<img src="img/prusa/broken-x-end-idler10.jpg" alt="X-end Idler" style="width: 600px; align: left;"/>
