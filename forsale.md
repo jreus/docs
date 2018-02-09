@@ -33,7 +33,14 @@ permalink: /forsale
 * wire sponge cleaner
 * USB fan
 
-# Audio Electronics
+# Audio/Visual, Cameras + Electronics
+
+## Panasonic Lumix DMC-LX5 Compact Camera + Accessories
+__INCLUDES__
+* battery charger (DE-A82)
+* 2 Lumix battery packs (DMW-BCJ13E)
+* stiff leather camera case
+* fixed deluxe auto-open lenscap JJC ALC-5B
 
 ## M-Audio Firewire 410 Soundcard
 <img src="img/sale/MAudio01.jpg" alt="MAudio Firewire 410" style="width: 300px;"/>
@@ -41,6 +48,8 @@ permalink: /forsale
 <img src="img/sale/MAudio03.jpg" alt="MAudio Firewire 410" style="width: 300px;"/>
 
 ## Beringer Xenyx Mixer
+
+
 
 
 # Hand & Power Tools
