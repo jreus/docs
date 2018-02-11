@@ -2,7 +2,7 @@
 title: Prusa MK2S Kit Construction & Issues
 description: Documenting assembly process and issues with the Prusa MK2S 3D-printer kit
 display_gitinfo: false
-header: /img/prusa/bedlevel-treefrog.jpg
+header: img/prusa/bedlevel-treefrog.jpg
 permalink: prusamk2s
 ---
 
@@ -21,8 +21,6 @@ One comment advised trying to push in the nut with pliers while tightening the M
 
 #### Here's the bearing stuck after the hex screw did its damage...
 
-<img src="img/prusa/broken-x-end-idler01.jpg" alt="X-end Idler" style="width: 300px;"/>
-
 <img src="img/prusa/broken-x-end-idler02.jpg" alt="X-end Idler" style="width: 600px;"/>
 
 ### Solution to the broken x-end idler...
@@ -33,17 +31,13 @@ At this point I haven't finished assembling the kit yet, so I'm not sure if this
 
 #### Here's the mess after removing the bearing:
 
-<img src="img/prusa/broken-x-end-idler03.jpg" alt="X-end Idler" style="width: 600px; align: left;"/>
-
 <img src="img/prusa/broken-x-end-idler04.jpg" alt="X-end Idler" style="width: 600px; align: left;"/>
 
-<img src="img/prusa/broken-x-end-idler05.jpg" alt="X-end Idler" style="width: 600px; align: left;"/>
-
-<img src="img/prusa/broken-x-end-idler06.jpg" alt="X-end Idler" style="width: 600px; align: left;"/>
-
-#### And my repair job
+#### And my repair job using a washer and countersunk screw
 
 <img src="img/prusa/broken-x-end-idler10.jpg" alt="X-end Idler" style="width: 600px; align: left;"/>
+
+
 
 ## Duplicate Z-axis part
 
@@ -56,7 +50,7 @@ Prusa also offered me a 20% discount on some filament. Seems like a good idea - 
 
 Strangely enough.. Prusa sent me the filament but *not* the missing parts. I contacted them about the missing parts and they were apologetic, and sent me the missing parts via express mail.
 
-<img src="img/prusa/double-z-axis-bottom-left.jpg" alt="Duplicate Z axis Bottom Left" style="width: 600px; align: left;"/>
+<img src="img/prusa/double-zaxis-bottom-left.jpg" alt="Duplicate Z axis Bottom Left" style="width: 600px; align: left;"/>
 
 
 
@@ -65,7 +59,15 @@ Strangely enough.. Prusa sent me the filament but *not* the missing parts. I con
 ### Solutions to fixing broken bolts..
 
 Beginning of January 5-7 in final step..
+during the final section (!!!) Electronics Assembly
+http://manual.prusa3d.com/Guide/8.+Electronics+assembly/279?lang=en
+http://manual.prusa3d.com/Guide/8.+Electronics+assembly/279?lang=en#s4759
 
+<img src="img/prusa/broken-screw-earlyJan.jpg" alt="Duplicate Z axis Bottom Left" style="width: 400px; align: left;"/>
+
+Drilling...
+
+<img src="img/prusa/broken-screw-drill01.jpg" alt="Duplicate Z axis Bottom Left" style="width: 400px; align: left;"/>
 
 * drilling out the bolts (they're stainless steel, none of my drilling tools or bits could do it)
 * cutting a notch in the bolt head and unscrewing it using a flathead screwdriver (the bolt was in too deeply)
@@ -73,10 +75,17 @@ Beginning of January 5-7 in final step..
 
 At this point I figured I had dont everything I could possibly do (and it's been two months since I've been building this kit with still no functional printer).. I contacted Prusa to ask for a replacement frame. As always their customer support was very gracious.. despite all the troubles I've run into building this kit, I still  have high regards for the way they treat their customers.
 
+
+
+
+
 ### New aluminum frame arrived on Jan 13
 #### Tapping the frame using an M3 tap (purchased at the local hardware store - it was rather expensive! --- but once you use it, the bolts go into the aluminum easily and secure tightly, a huge difference!)
 I posted this recommendation on the instructions page...
 
+<img src="img/prusa/new-frame-tap01-jan13.jpg" alt="Duplicate Z axis Bottom Left" style="width: 400px; align: left;"/>
+
+<img src="img/prusa/new-frame-tap03-jan13.jpg" alt="Duplicate Z axis Bottom Left" style="width: 400px; align: left;"/>
 
 
 ## Bed Level Problems...
@@ -123,10 +132,69 @@ The left side of the print is not well-attached to the bed, the right side is pr
 
 
 
+
 ## Attempts at Troubleshooting
+
+<img src="img/prusa/bedlevel-measurement-caliper02.jpg" alt="Bed Level Problem" style="width: 800px;"/>
+
+
+
+
+
 
 ### Live-Z Adjust
 
-### Bed Level Adjust
+<img src="img/prusa/prusa-calibration-livez01.jpg" alt="Bed Level Problem" style="width: 600px;"/>
+
+<img src="img/prusa/prusa-calibration-livez02.jpg" alt="Bed Level Problem" style="width: 600px;"/>
+
+<img src="img/prusa/prusa-calibration-livez04.jpg" alt="Bed Level Problem" style="width: 600px;"/>
+
+
+
+
+
+
+# XYZ Calibration, Adjusting the Frame
+
+<img src="img/prusa/cal01-xyz.jpg" alt="Bed Level Problem" style="width: 800px;"/>
+
+<img src="img/prusa/prusa-calibration-xyz-v2cal-firsttry.jpg" alt="Bed Level Problem" style="width: 800px;"/>
+
+<img src="img/prusa/prusa-calibration-xyz01.jpg" alt="Bed Level Problem" style="width: 800px;"/>
+
+<img src="img/prusa/prusa-calibration-xyz02.jpg" alt="Bed Level Problem" style="width: 800px;"/>
+
+
+### Z Calibration
+
+<img src="img/prusa/prusa-calibration-z01.jpg" alt="Bed Level Problem" style="width: 800px;"/>
+
+<img src="img/prusa/prusa-calibration-z02.jpg" alt="Bed Level Problem" style="width: 800px;"/>
+
+<img src="img/prusa/prusa-calibration-xyz-perp01.jpg" alt="Bed Level Problem" style="width: 800px;"/>
+
+<img src="img/prusa/prusa-calibration-xyz-skewed01.jpg" alt="Bed Level Problem" style="width: 800px;"/>
+
+<img src="img/prusa/prusa-calibration-xyz-v2cal04.jpg" alt="Bed Level Problem" style="width: 800px;"/>
+
+<img src="img/prusa/prusa-calibration-z.jpg" alt="Bed Level Problem" style="width: 800px;"/>
+
+
+
+
+### Triple Checking XYZ / Z Calibration
+
+<img src="img/prusa/prusa-calibration-xyz-leftz.jpg" alt="Bed Level Problem" style="width: 600px;"/>
+
+<img src="img/prusa/prusa-calibration-xyz-rightz.jpg" alt="Bed Level Problem" style="width: 600px;"/>
 
 ### Rebuilding/Tightening the Frame
+
+
+
+### Bed Level Adjust
+
+<img src="img/prusa/prusa-calibration-bedlevelcorrect01.jpg" alt="Bed Level Problem" style="width: 600px;"/>
+
+<img src="img/prusa/prusa-calibration-bedlevelcorrect02.jpg" alt="Bed Level Problem" style="width: 600px;"/>
