@@ -72,44 +72,48 @@ I really kicked myself after this happened! Multiple people in the assembly manu
 
 It's true that the bolts did not go in easily when I assembled the Z-axis. I should have taken that as a warning, but I didn't want to spend the extra money on a M3 tap set - especially with the comments from Prusa reps saying that the screws should go in just fine...
 
-This issue led me to looking for solutions online for removing a broken screw. I came up with a few options (and tried all of them!):
+This issue led me to looking for solutions online for removing a broken screw. I found a few options (and tried all of them)..
 
 ### 1. notch & screwdriver
-The easiest suggestion I found was to cut a notch in the bolt head using a dremel. Once you have this notch, theoretically you can unscrew the bolt using a flathead screwdriver.
+The easiest suggestion was to use a dremel tool to cut a notch in the bolt head. Once you have this notch, you can unscrew the bolt using a flathead screwdriver.
 
-unscrewing it using a flathead screwdriver (the bolt was in too deeply)
+Luckily I have a dremel with cutting disks, so this is the option I tried first. However, the bolt was in too deeply and I wasn't able to get it to budge at all with the screwdriver.
 
-### 2. drilling out the screw
-drilling out the bolts (they're stainless steel, none of my drilling tools or bits could do it)
+### 2. drilling out the screw/using a screw remover
+The second option was to use a fine drill bit to drill out the bolt, and (optionally) use a screw extractor ([something like this](http://www.silverlinetools.com/en-GB/Products/Mechanical%20Engineering/Threading%20Tools/DA70)) to pull the bolt out.
 
-Drilling...
+I went to the hardware store and bought a tungsten carbide HSS 2mm drill bit along with a M3 screw extractor. However I couldn't get the bit to dig into the bolt no matter what... the bolt, as it turns out, is stainless steel.. notoriously difficult to drill into.
 
 <img src="img/prusa/broken-screw-drill01.jpg" alt="Duplicate Z axis Bottom Left" style="width: 400px; align: left;"/>
 
 
 ### 3. dissolve the bolt with alum (the most desperate)
-dissolving the bolt using alum (left two days with a tealit alum solution... no effect)
+Finally a friend recommended that I should try dissolving the bolt with alum. This is an old trick she used when a steel bolt would get rusted and stuck into a piece of aluminum... if left soaking in an alum solution for long enough, the steel dissolves but the aluminum would not.
+
+I found this video of a guy doing the same thing:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fqZYgReuywM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+I built my own soda-can rig and bought some alum from a mineral supply store online. I left the bolt soaking in an alum solution for two days (heated by a tealight underneath). However, after two days the bolt still hadn't shown any signs of dissolving - and the alum was crystallizing out of solution all over the place and making a big mess.
 
 # No luck... now what?
-__*Jan 11*__ sadly none of these methods worked, so in desperation I contacted Prusa again to ask for help. They (very graciously!) sent me a replacement aluminum frame free of charge. I can say that many things about this assembly have been frustrating, but the response from Prusa Research has been *superb every time*.
+__*Jan 11, 18*__ Nothing seemed to get the bolt out, and at this point it felt like I had done everything I could. It's been almost two months building this kit and still no functional printer... so in desperation I decided to contact Prusa again.
 
-I can only imagine what a nightmare this would have been if I had purchased a Chinese Prusa knock-off with poor customer support.
+The response from Prusa Research was *superb* -
+they (very graciously!) sent me a replacement aluminum frame free of charge. Despite all the frustration I'm still very impressed with Prusa's commitment to supporting their customers and community.
 
-At this point I figured I had dont everything I could possibly do (and it's been two months since I've been building this kit with still no functional printer).. I contacted Prusa to ask for a replacement frame. As always their customer support was very gracious.. despite all the troubles I've run into building this kit, I still  have high regards for the way they treat their customers.
-
-
-# Tapping the Frame This Time
-__*Jan 13*__
-
-#### Tapping the frame using an M3 tap (purchased at the local hardware store - it was rather expensive! --- but once you use it, the bolts go into the aluminum easily and secure tightly, a huge difference!)
-I posted this recommendation on the instructions page...
+# Tapping the new Frame
+__*Jan 15, 18*__ The new aluminum frame arrived. But this time I decided not to take any chances and purchased an M3 tap set at the local hardware store (you can also easily find them [online](https://www.amazon.com/Drill-Warehouse-Adjustable-T-Handle-Thread/dp/B0736T5NM6/)). Once I tapped the holes on the new frame the bolts went in easily and secured tightly, a huge difference.
 
 <img src="img/prusa/new-frame-tap01-jan13.jpg" alt="Duplicate Z axis Bottom Left" style="width: 400px; align: left;"/>
 
 <img src="img/prusa/new-frame-tap03-jan13.jpg" alt="Duplicate Z axis Bottom Left" style="width: 400px; align: left;"/>
 
+I really think it's important that Prusa find a better way of tapping these holes in manufacturing, because they seem to be creating an issue for many people when assembling these kits. I [posted a recommendation](http://manual.prusa3d.com/Guide/4.+Z-axis+assembly/296?lang=en#s5013) on the instructions page to tap the holes before assembling the Z-axis... hopefully others take the advice that I had to learn the hard way.
+
+In either case, with a new aluminum frame and lessons learned I'll try to finish building the printer tonight.
 
 # Layer Height and Bed Level Problems...<a name='bed-level-problem'></a>
+__*Jan 31, 18*__
 ### Really helpful Prusa MK2S owners facebook page..
 
 ### Trying to fix this problem....
