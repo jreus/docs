@@ -10,10 +10,17 @@ In November 2017 I decided to take the plunge into the world of 3D printing, and
 
 I decided to buy the MK2S because it seemed like a safer bet going with a printer design that had been around longer and whose issues were known. I also decided to purchase the kit rather than the pre-assembled printer, under the advice of my friend Jarno - who is a 3D printer fanatic (and a huge fan of Prusa Research). Jarno recommended getting a kit because the assembly process of the printer is and important way to 'know your machine', this DIY know-how would be especially important later for tweaking and calibrating the printer.
 
-## Assembly Manual
+* [Beginning Assembly](#assembly)
+* [X-end Idler Issue](#x-end-troubles)
+* [Missing Z Axis Part](#missing-z-axis-part)
+* [Broken Bolts](#broken-bolts)
+* [Printing Layer Height Issue](#bed-level-problem)
+
+
+# Beginning Assembly <a name='assembly'></a>
 My printer arrived promptly in the first week of November and I started the first weekend I could building it. The kit itself comes with a detailed assembly manual - I found Prusa's [online MK2S manual](http://manual.prusa3d.com/c/Original_Prusa_i3_MK2S_kit_assembly) to be an extremely valuable resource. Every step includes tips from the user community for how to improve the assembly experience - which saved me a few times from making mistakes.
 
-## (Step 7) X-end Idler Assembly Troubles
+## (Step 7) X-end Idler Assembly Troubles <a name='x-end-troubles'></a>
 
 At [step 7](http://manual.prusa3d.com/Guide/3.+X-axis+assembly/299#s5109) of the X-axis assembly I hit a problem. In this step you have to insert a hexagonal nylock nut into a hexagon-shaped groove on a 3D-printed part, however the nut would not fit into the groove at all. Some commenters on the assembly manual were also having issues with this step - apparently the tolerance on these 3D-printed parts isn't so good.
 
@@ -39,7 +46,7 @@ At this point I haven't finished assembling the kit yet, so I'm not sure if this
 
 
 
-## Duplicate Z-axis part
+## Duplicate Z-axis part<a name='missing-z-axis-part'></a>
 
 Z-axis assembly: http://manual.prusa3d.com/Guide/4.+Z-axis+assembly/296?lang=en
 
@@ -55,7 +62,7 @@ Strangely enough.. Prusa sent me the filament but *not* the missing parts. I con
 
 
 
-## Broken bolts in aluminum frame
+## Broken bolts in aluminum frame<a name='broken-bolts'></a>
 ### Solutions to fixing broken bolts..
 
 Beginning of January 5-7 in final step..
@@ -88,7 +95,7 @@ I posted this recommendation on the instructions page...
 <img src="img/prusa/new-frame-tap03-jan13.jpg" alt="Duplicate Z axis Bottom Left" style="width: 400px; align: left;"/>
 
 
-## Bed Level Problems...
+## Bed Level Problems...<a name='bed-level-problem'></a>
 ### Really helpful Prusa MK2S owners facebook page..
 
 ### Trying to fix this problem....
