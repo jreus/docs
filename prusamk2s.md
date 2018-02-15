@@ -124,7 +124,7 @@ The self-test worked without issue. And I was able to calibrate the XYZ axis as 
 After loading the filament I printed the V2calibration test print to get the height of the nozzle fine tuned.
 
 <br/><br/><br/>
-
+<a name='bed-level-problem'></a>
 #### Here's the first try:
 
 <img src="img/prusa/prusa-calibration-xyz-v2cal-firsttry.jpg" alt="Bed Level Problem" style="width: 800px;"/>
@@ -156,7 +156,7 @@ After a few tries I settled on lowering the nozzle by 0.3mm.
 <br/><br/><br/>
 
 #### Here's the result after some tweaking..
-<a name='bed-level-problem'></a>
+
 <img src="img/prusa/bedlevel-v2cal03.jpg" alt="v2calibration" style="width: 800px;"/>
 
 It's a bit hard to see with the silver filament, but you can see how the printed lines are much thicker on the right side of the board than on the left side. It's especially visible in the lower two lines.
@@ -186,7 +186,8 @@ I then tried to print the treefrog, which became detached from the bed during pr
 <br/><br/>
 <br/><br/>
 
-# Ongoing Layer Height and Bed Level Issues<a name='bed-level-ongoing'></a>
+<a name='bed-level-ongoing'></a>
+# Ongoing Layer Height and Bed Level Issues
 
 __*Jan 31, 18*__ I've been trying to design my own 3D parts over the last week. Slicing using [Cura](https://ultimaker.com/en/products/ultimaker-cura-software). However the problem with the bed level between the left and right side of the printer continues to be a problem.. here's one of the first parts I designed, which again has issues with the left side sticking to the bed and not warping.
 
