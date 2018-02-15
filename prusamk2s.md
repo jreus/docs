@@ -15,6 +15,7 @@ I decided to buy the MK2S because it seemed like a safer bet going with a printe
 * [Missing Z Axis Part](#missing-z-axis-part)
 * [Broken Bolts](#broken-bolts)
 * [Printing Layer Height Issue](#bed-level-problem)
+* [Ongoing problems with bed level](#bed-level-ongoing)
 
 # Beginning Assembly <a name='assembly'></a>
 __*Nov 7*__
@@ -60,10 +61,7 @@ I contacted Prusa and they apologized and offered to send me the missing part - 
 __*Dec 2*__ Finally my Z-axis right end is here. Now back to assembling the printer!
 
 # Broken bolts in aluminum frame<a name='broken-bolts'></a>
-__*Jan 5*__ Nearly at the end of the printer assembly I hit a huge problem. While screwing the electronics case into the aluminum frame I had a bolt get stuck and break.
-
-http://manual.prusa3d.com/Guide/8.+Electronics+assembly/279?lang=en
-http://manual.prusa3d.com/Guide/8.+Electronics+assembly/279?lang=en#s4759
+__*Jan 5*__ Nearly at the [end of the printer assembly](http://manual.prusa3d.com/Guide/8.+Electronics+assembly/279?lang=en#s4759) I hit a huge problem. While screwing the electronics case into the aluminum frame I had a bolt get stuck and break.
 
 
 <img src="img/prusa/broken-screw-earlyJan.jpg" alt="Duplicate Z axis Bottom Left" style="width: 400px; align: left;"/>
@@ -158,6 +156,7 @@ After a few tries I settled on lowering the nozzle by 0.3mm.
 <br/><br/><br/>
 
 #### Here's the result after some tweaking..
+<a name='bed-level-problem'></a>
 <img src="img/prusa/bedlevel-v2cal03.jpg" alt="v2calibration" style="width: 800px;"/>
 
 It's a bit hard to see with the silver filament, but you can see how the printed lines are much thicker on the right side of the board than on the left side. It's especially visible in the lower two lines.
@@ -187,7 +186,7 @@ I then tried to print the treefrog, which became detached from the bed during pr
 <br/><br/>
 <br/><br/>
 
-# Ongoing Layer Height and Bed Level Issues<a name='bed-level-problem'></a>
+# Ongoing Layer Height and Bed Level Issues<a name='bed-level-ongoing'></a>
 
 __*Jan 31, 18*__ I've been trying to design my own 3D parts over the last week. Slicing using [Cura](https://ultimaker.com/en/products/ultimaker-cura-software). However the problem with the bed level between the left and right side of the printer continues to be a problem.. here's one of the first parts I designed, which again has issues with the left side sticking to the bed and not warping.
 
@@ -226,9 +225,13 @@ Again, I still have the problem of the lines on the left not sticking to the bed
 
 At this point I tried adjusting the Z calibration a few times, while changing the height of the PINDA probe. Maybe there was an issue with the calibration?
 
+Josef Prusa explaining how to align the z-axis:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JqH41K2vq0g?start=296" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
 <img src="img/prusa/prusa-calibration-z.jpg" alt="Bed Level Problem" style="width: 800px;"/>
 
-Z-axis carriage all the way up:
+My Z-axis carriage all the way up:
 
 <img src="img/prusa/prusa-calibration-xyz-leftz.jpg" alt="Bed Level Problem" style="width: 400px;float:left"/>
 
@@ -240,15 +243,8 @@ But this still had no effect...
 
 At this point I'm at a loss for what to do. I feel like I've put a huge amount of work into building and tuning this printer, and yet I still can't get reliable prints from it.
 
-Here's one interesting video I found online of a guy who seems to be experiencing similar problems. He speculates that it's a defect in the bed manufacturing... but I'm not so sure that's the case with my printer. It seems more like there's a combination of problems (perhaps an uneven X-axis, a deformed bed, an issue with the pinda probe) that are coming together to cause the problem.
+Here's one interesting video I found of a guy who seems to be experiencing similar problems.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/JqH41K2vq0g?start=296" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-
-
-
-
-Video of guy with same issue:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VqgqAyFAb7I" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/fqZYgReuywM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+ He speculates that it's a defect in the bed manufacturing... but I'm not so sure that's the case with my printer. It seems more like there's a combination of problems (perhaps an uneven X-axis, a deformed bed, an issue with the pinda probe) that are coming together to cause the problem.
