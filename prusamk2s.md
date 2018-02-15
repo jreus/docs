@@ -200,7 +200,10 @@ My measurements showed up a 0.5-2mm difference in height between points.. the di
 
 But the Z calibration should resolve this? Right? That's what I thought.. something weird must be going on.
 
-As usual, the internet is full of helpful people willing to share their knowledge and experience. I found one especially helpful community on the [MK2S owners facebook page](https://www.facebook.com/groups/prusai3mk2owners/) (worth joining for all Prusa owners!)
+Josef Prusa gives some good advice for aligning the z, x, and y axes:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JqH41K2vq0g?start=296" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+The internet is, naturally, also full of helpful people willing to share their knowledge and experience. I found one especially helpful community on the [MK2S owners facebook page](https://www.facebook.com/groups/prusai3mk2owners/) (worth joining for all Prusa owners!)
 
 I got a lot of advice here for trying to diagnose the problem, here's a few I decided to try...
 
@@ -224,10 +227,6 @@ Again, I still have the problem of the lines on the left not sticking to the bed
 ### Z Calibration
 
 At this point I tried adjusting the Z calibration a few times, while changing the height of the PINDA probe. Maybe there was an issue with the calibration?
-
-Josef Prusa explaining how to align the z-axis:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/JqH41K2vq0g?start=296" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
 
 <img src="img/prusa/prusa-calibration-z.jpg" alt="Bed Level Problem" style="width: 800px;"/>
 
