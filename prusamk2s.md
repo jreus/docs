@@ -90,7 +90,7 @@ I went to the hardware store and bought a tungsten carbide HSS 2mm drill bit alo
 ### 3. dissolve the bolt with alum (the most desperate)
 Finally a friend recommended that I should try dissolving the bolt with alum. This is an old trick she used when a steel bolt would get rusted and stuck into a piece of aluminum... if left soaking in an alum solution for long enough, the steel dissolves but the aluminum would not.
 
-I found this video of a guy doing the same thing:
+This video shows someone going through the process of dissolving a steel bolt stuck in an aluminum block, using a soda can, a light bulb (for heat) and an alum solution:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fqZYgReuywM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 I built my own soda-can rig and bought some alum from a mineral supply store online. I left the bolt soaking in an alum solution for two days (heated by a tealight underneath). However, after two days the bolt still hadn't shown any signs of dissolving - and the alum was crystallizing out of solution all over the place and making a big mess.
@@ -108,8 +108,7 @@ __*Jan 15, 18*__ The new aluminum frame arrived. But this time I decided not to 
 
 <img src="img/prusa/new-frame-tap01-jan13.jpg" alt="New Aluminum Frame" style="width: 300px; align: left;"/>
 
-
-I really think it's important that Prusa find a better way of tapping these holes in manufacturing, because they seem to be creating an issue for many people when assembling these kits. I [posted a recommendation](http://manual.prusa3d.com/Guide/4.+Z-axis+assembly/296?lang=en#s5013) on the instructions page to tap the holes before assembling the Z-axis... hopefully others take the advice that I had to learn the hard way.
+I really hopes Prusa finds a better way of tapping these holes in manufacturing, because they seem to be creating an issue for many people when assembling these kits. I [posted a recommendation](http://manual.prusa3d.com/Guide/4.+Z-axis+assembly/296?lang=en#s5013) on the instructions page to tap the holes before assembling the Z-axis... hopefully others take the advice that I had to learn the hard way.
 
 In either case, with a new aluminum frame and lessons learned I'll try to finish building the printer tonight.
 
@@ -126,8 +125,7 @@ The self-test worked without issue. And I was able to calibrate the XYZ axis as 
 
 After loading the filament I printed the V2calibration test print to get the height of the nozzle fine tuned.
 
-
-<br/><br/><br/><br/><br/><br/>
+<br/><br/><br/>
 
 #### Here's the first try:
 
@@ -164,131 +162,93 @@ After a few tries I settled on lowering the nozzle by 0.3mm.
 
 It's a bit hard to see with the silver filament, but you can see how the printed lines are much thicker on the right side of the board than on the left side. It's especially visible in the lower two lines.
 
-Unfortunately the lines on the left side at this point were still having problems sticking (I could easily disconnect them from the bed just by touching them).
+Unfortunately the lines on the left side at this point were still having problems sticking (I could easily disconnect them from the bed just by touching them). Although they were sticking a bit better than in the first try.
 
 The [3D printing handbook](#printing-handbook) specifically mentions this problem in the workflow - and suggests looking at the chapter on Bed level correction.
 
 ## Bed Level correction
 
+Bed Level correction is a new feature of firmware 3.0.6+ that allows you to correct small inconsistencies in the nozzle height at the back, left, right, and front of the print bed. I adjusted the left side correction to +50u (raising the bed by 50microns) and a right side correction of -50u. These are the maximum values allowed.
 
+<img src="img/prusa/prusa-calibration-bedlevelcorrect01.jpg" alt="Bed Level Correction Menu" style="width: 300px; float: left"/>
 
+<img src="img/prusa/prusa-calibration-bedlevelcorrect02.jpg" alt="Bed Level Correction Adjustment" style="width: 300px;"/>
 
+After dialing in these values I made another V2calibration print and saw no improvement. My conclusion is that the inconsistency in my bed (or some other part of the printer?) is significantly larger than 50um.
 
+## Printing a few things...
 
+It's been two months of building this printer so I wanted to just get started and try printing things. The first thing I printed was the recommended Prusa logo, provided on the included SD card. The logo turned out alright, with some curling up on the left (my guess is that this is due to the nozzle height issue).
 
+I then tried to print the treefrog, which became detached from the bed during printing. The left side of the frog was curling up a bit just like the Prusa logo.. Looking at the bottom you can see an obvious difference in the solidness of the print on the left and right. This again makes me think the nozzle/bed height inconsistency is part of what's going wrong.
+
+<img src="img/prusa/bedlevel-treefrog.jpg" alt="Bed Level Problem" style="width: 800px;"/>
 
 <br/><br/>
 <br/><br/>
+
 # Ongoing Layer Height and Bed Level Issues<a name='bed-level-problem'></a>
 
-__*Jan 31, 18*__ After tapping the M3 holes in the frame the rest of the kit assembly was a breeze. In their [3D Printing Handbook](www.prusa3d.com/3dhandbookMK2S), Prusa recommends a few calibration routines after assembly.
+__*Jan 31, 18*__ I've been trying to design my own 3D parts over the last week. Slicing using [Cura](https://ultimaker.com/en/products/ultimaker-cura-software). However the problem with the bed level between the left and right side of the printer continues to be a problem.. here's one of the first parts I designed, which again has issues with the left side sticking to the bed and not warping.
 
+<img src="img/prusa/bedlevel-part01.jpg" alt="Bed Level Problem" style="width: 800px;"/>
 
+I first wanted to take a measurement of the nozzle height at different points on the bed.
 
-### Really helpful Prusa MK2S owners facebook page..
+<img src="img/prusa/bedlevel-measurement-caliper02.jpg" alt="Bed Level Problem" style="width: 500px;"/>
 
-### Trying to fix this problem....
-* Reassembly of Y-axis to get 'perfect alignment'
-* Multiple adjustments of the PINDA probe
-* Moving the printer to different surfaces (table tops which may be more flat), and recalibrating the printer afterwards
-* reassembling the printbed/Y-axis connection
+My measurements showed up a 0.5-2mm difference in height between points.. the difference was greatest between the left and right side of the bed (the left side was significantly lower, no surprises there).
+
+But the Z calibration should resolve this? Right? That's what I thought.. something weird must be going on.
+
+As usual, the internet is full of helpful people willing to share their knowledge and experience. I found one especially helpful community on the [MK2S owners facebook page](https://www.facebook.com/groups/prusai3mk2owners/) (worth joining for all Prusa owners!)
+
+I got a lot of advice here for trying to diagnose the problem, here's a few I decided to try...
+
+1. Try reassembly of the Y-axis to get 'perfect alignment'
+2. try adjusting the screw connections between the printbed and Y-axis
+3. try adjusting the PINDA probe
+4. moving the printer to different surfaces (table tops which may be more flat), and recalibrating the printer
+
+I tried all of these. First moving the printer to a better surface. Previously my printer was on a large wooden workbench and I moved it to a more solid, smaller, lower table with a flatter top.
+
+I then totally disassembled and reassembled most of the printer (everything except the parts that hold bearings - because these can be so easily damaged when trying to remove them). After the rebuild - and with some very careful squaring of the Y-frame, I was able to run an XYZ calibration without any skew!
+
+<img src="img/prusa/prusa-calibration-xyz-perp01.jpg" alt="Axes perpendicular" style="width: 400px;"/>
+
+After a few tries with the v2calibration print and live Z-adjust, and adjusting the screws under the printbed.. here's the result.
+
+<img src="img/prusa/prusa-calibration-v2cal02.jpg" alt="Bed Level Problem" style="width: 800px;"/>
+
+Again, I still have the problem of the lines on the left not sticking to the bed, while the lines on the right press down perfectly.
+
+### Z Calibration
+
+At this point I tried adjusting the Z calibration a few times, while changing the height of the PINDA probe. Maybe there was an issue with the calibration?
+
+<img src="img/prusa/prusa-calibration-z.jpg" alt="Bed Level Problem" style="width: 800px;"/>
+
+Z-axis carriage all the way up:
+
+<img src="img/prusa/prusa-calibration-xyz-leftz.jpg" alt="Bed Level Problem" style="width: 400px;float:left"/>
+
+<img src="img/prusa/prusa-calibration-xyz-rightz.jpg" alt="Bed Level Problem" style="width: 300px;"/>
+
+But this still had no effect...
+
+# What now...?
+
+At this point I'm at a loss for what to do. I feel like I've put a huge amount of work into building and tuning this printer, and yet I still can't get reliable prints from it.
+
+Here's one interesting video I found online of a guy who seems to be experiencing similar problems. He speculates that it's a defect in the bed manufacturing... but I'm not so sure that's the case with my printer. It seems more like there's a combination of problems (perhaps an uneven X-axis, a deformed bed, an issue with the pinda probe) that are coming together to cause the problem.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JqH41K2vq0g?start=296" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-#### Caliper measurements show a 1mm difference in height between the left and right side of the bed, but the PINDA Z calibration should resolve this? No?
-To be honest I'm now really regretting not purchasing the slightly more expensive MK3. A friend of mine purchased the MK3 and had his printer up and working in two days. The y-axis frame seems to be a much better design than on the MK2S - which I have had to repeatedly adjust, to the point of even rebuilding the whole thing.. and I can only assume part of my bed height problems are due to the instability of the Y-axis design. At this point I am ready to give up... if you have any suggestions for solving this problem please help!
 
-After assembling my Prusa MK2S kit I am experiencing a problem with getting even first layers. For some reason, the prints are higher up from the bed on the left than on the right.
 
-Getting the right Z-adjust Level
-https://shop.prusa3d.com/forum/prusa-i3-kit-building-calibrating-first-print-main-f6/life-adjust-z-my-way-t2981.html
 
-possibly the y-axis is somehow offkilter (right side higher than the left) ... the pinda is not capable of adjusting for this
-https://www.reddit.com/r/3Dprinting/comments/5ximfs/is_the_prusa_i3_mk2_mesh_bed_levelling_not_real/
 
 Video of guy with same issue:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VqgqAyFAb7I" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-
-## V2Calibration gcode
-
-The calibration print is 'squished' on the right side and sticks well to the bed. The lines get thinner as they go to the left. The lines on the left are not 'squished' and don't stick to the bed.
-
-Apologies for the image - the filament is grey so it is a bit difficult to see against the print bed.
-
-## Here is the bottom of the tree frog included print.
-The left side of the print is not well-attached to the bed, the right side is printed very nicely on the first layer.
-
-<img src="img/prusa/bedlevel-treefrog.jpg" alt="Bed Level Problem" style="width: 800px;"/>
-
-<img src="img/prusa/bedlevel-part01.jpg" alt="Bed Level Problem" style="width: 800px;"/>
-
-
-
-
-
-## Attempts at Troubleshooting
-
-<img src="img/prusa/bedlevel-measurement-caliper02.jpg" alt="Bed Level Problem" style="width: 800px;"/>
-
-
-
-
-
-
-
-
-
-# XYZ Calibration, Adjusting the Frame
-
-<img src="img/prusa/cal01-xyz.jpg" alt="Bed Level Problem" style="width: 800px;"/>
-
-oh my
-
-
-<img src="img/prusa/prusa-calibration-xyz01.jpg" alt="Bed Level Problem" style="width: 800px;"/>
-
-<img src="img/prusa/prusa-calibration-xyz02.jpg" alt="Bed Level Problem" style="width: 800px;"/>
-
-
-### Z Calibration
-
-<img src="img/prusa/prusa-calibration-z01.jpg" alt="Bed Level Problem" style="width: 800px;"/>
-
-z cal01
-
-
-<img src="img/prusa/prusa-calibration-z02.jpg" alt="Bed Level Problem" style="width: 800px;"/>
-
-<img src="img/prusa/prusa-calibration-xyz-perp01.jpg" alt="Bed Level Problem" style="width: 800px;"/>
-
-main
-
-
-<img src="img/prusa/prusa-calibration-xyz-v2cal04.jpg" alt="Bed Level Problem" style="width: 800px;"/>
-
-<img src="img/prusa/prusa-calibration-z.jpg" alt="Bed Level Problem" style="width: 800px;"/>
-
-
-
-
-### Triple Checking XYZ / Z Calibration
-
-<img src="img/prusa/prusa-calibration-xyz-leftz.jpg" alt="Bed Level Problem" style="width: 600px;"/>
-
-Triple
-
-<img src="img/prusa/prusa-calibration-xyz-rightz.jpg" alt="Bed Level Problem" style="width: 600px;"/>
-
-### Rebuilding/Tightening the Frame
-
-
-
-### Bed Level Adjust
-
-<img src="img/prusa/prusa-calibration-bedlevelcorrect01.jpg" alt="Bed Level Problem" style="width: 600px;"/>
-
-<img src="img/prusa/prusa-calibration-bedlevelcorrect02.jpg" alt="Bed Level Problem" style="width: 600px;"/>
-
-
-# Still no luck.. now what?
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fqZYgReuywM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
