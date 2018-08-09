@@ -1,10 +1,21 @@
 ---
-title: For Sale
-description: Things I'm selling.
+title: Garage Sale
+description: A list of things I'm selling or getting rid of. Make a bid
 display_gitinfo: false
+layout: grid
 header: img/sale/LCDs01.jpg
 permalink: /forsale
 ---
+
+<div class="grid-container">
+
+<div class="grid-item">1</div>
+<div class="grid-item">2</div>
+<div class="grid-item">3</div>
+<div class="grid-item">4</div>
+<div class="grid-item">5</div>
+
+</div> <!-- END GRID -->
 
 # LCD TVs and Monitors
 
