@@ -124,20 +124,6 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 td, th { padding: 0; }
 
-.grid-container {
-	display: grid;
-	grid-column-gap: 10px;
-	grid-row-gap: 10px;
-	grid-template-columns: auto auto auto;
-}
-
-.grid-item {
-	background-color: #FFF;
-	color: #222;
-}
-
-
-
 .highlight table td { padding: 5px; }
 
 .highlight table pre { margin: 0; }
@@ -330,3 +316,5 @@ a:hover { text-decoration: underline; }
 .site-footer-owner { display: block; font-weight: bold; }
 
 .site-footer-credits { color: #819198; }
+
+.grid-container { display: grid; grid-template-columns: auto auto auto; justify-content: space-evenly; grid-gap: 50px; }

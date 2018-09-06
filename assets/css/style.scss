@@ -1,0 +1,14 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	justify-content: space-evenly;
+	grid-gap: 50px;
+}
+
+.grid-item {
+}

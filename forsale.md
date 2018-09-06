@@ -2,72 +2,73 @@
 title: Garage Sale
 description: A list of things I'm selling or getting rid of. Make a bid
 display_gitinfo: false
-layout: grid
+layout: default
 header: img/sale/LCDs01.jpg
 permalink: /forsale
 ---
 
-<div class="grid-container">
+# Prusa MK2S 3D Printer
+<a href="img/prusa/prusa-new-heatbed-printer.jpg"><img src="img/prusa/prusa-new-heatbed-printer.jpg" alt="PRUSA MK2S 3D Printer" style="width: 600px;"/></a>
+<a href="img/prusa/prusa-new-heatbed-frog.jpg"><img src="img/prusa/prusa-new-heatbed-frog.jpg" alt="PRUSA MK2S 3D Printer" style="width: 300px;"/></a>
+<a href="img/prusa/prusa-new-heatbed-mask.jpg"><img src="img/prusa/prusa-new-heatbed-mask.jpg" alt="PRUSA MK2S 3D Printer" style="width: 300px;"/></a>
+<a href="img/prusa/prusa-new-heatbed-calibration.jpg"><img src="img/prusa/prusa-new-heatbed-calibration.jpg" alt="PRUSA MK2S 3D Printer" style="width: 300px;"/></a>
 
-<div class="grid-item">1</div>
-<div class="grid-item">2</div>
-<div class="grid-item">3</div>
-<div class="grid-item">4</div>
-<div class="grid-item">5</div>
 
-</div> <!-- END GRID -->
+# Dremel 300 + Acessories
+* Dremel 300
+* Case/Bag
+* Bits & Accessories
+* Dremel Workstand / Drill press
+* Dremel line & circle cutting / routing attachment
 
-# LCD TVs and Monitors
-
-## ACER X243HQ LCD Monitor
-<img src="img/sale/LCDs-acer01.jpg" alt="ACER X243HQ" style="width: 300px;"/>
-<img src="img/sale/LCDs-acer02.jpg" alt="ACER X243HQ" style="width: 300px;"/>
-
-## AKAI ALD1514T Combo DVD Player, LCD TV & Monitor
-<img src="img/sale/LCDs-akai01.jpg" alt="AKAI ALD1514T" style="width: 300px;"/>
-<img src="img/sale/LCDs-akai02.jpg" alt="AKAI ALD1514T" style="width: 300px;"/>
-
-## Philips LCD TV
-<img src="img/sale/LCDs-philips01.jpg" alt="PHILIPS 19PFL3403/10" style="width: 300px;"/>
-<img src="img/sale/LCDs-philips02.jpg" alt="PHILIPS 19PFL3403/10" style="width: 300px;"/>
-
-# Electronics Tools
-
-## Tektronix 465B 100Mhz Analog Oscilloscope
+# Tektronix 465B 100Mhz Analog Oscilloscope
 <img src="img/sale/Tektronix01.jpg" alt="TEKTRONIX 465B" style="width: 300px;"/>
 <img src="img/sale/Tektronix02.jpg" alt="TEKTRONIX 465B" style="width: 300px;"/>
 <img src="img/sale/Tektronix-Probes.jpg" alt="TEKTRONIX 465B" style="width: 300px;"/>
 <img src="img/sale/Tektronix-Case.jpg" alt="TEKTRONIX 465B" style="width: 300px;"/>
 
-## Soldering Equipment
+
+# LCD TVs and Monitors
+
+<div class="grid-container">
+
+<div class="grid-item">
+<h2>Philips LCD TV 19PFL3403</h2>
+<a href="img/sale/LCDs-phillips01.jpg"><img src="img/sale/LCDs-phillips01.jpg" alt="PHILIPS 19PFL3403/10" style="width: 300px;"/></a>
+<a href="img/sale/LCDs-phillips02.jpg"><img src="img/sale/LCDs-phillips02.jpg" alt="PHILIPS 19PFL3403/10" style="width: 300px;"/></a>
+</div>
+
+<div class="grid-item">
+<h2>ACER X243HQ LCD Monitor</h2>
+<a href="img/sale/LCDs-acer01.jpg"><img src="img/sale/LCDs-acer01.jpg" alt="ACER X243HQ" style="width: 300px;"/></a>
+<a href="img/sale/LCDs-acer02.jpg"><img src="img/sale/LCDs-acer02.jpg" alt="ACER X243HQ" style="width: 300px;"/></a>
+</div>
+
+<div class="grid-item">
+<h2>AKAI ALD1514T Combo DVD Player, LCD TV & Monitor</h2>
+<a href="img/sale/LCDs-akai01.jpg"><img src="img/sale/LCDs-akai01.jpg" alt="AKAI ALD1514T" style="width: 300px;"/></a>
+<a href="img/sale/LCDs-akai02.jpg"><img src="img/sale/LCDs-akai02.jpg" alt="AKAI ALD1514T" style="width: 300px;"/></a>
+</div>
+
+</div> <!-- END GRID -->
+
+
+
+# Soldering Equipment
 * Aoyue soldering station
 * wire sponge cleaner
 * USB fan
 
-# Audio/Visual, Cameras + Electronics
-
-## Panasonic Lumix DMC-LX5 Compact Camera + Accessories
+# Panasonic Lumix DMC-LX5 Compact Camera + Accessories
 __INCLUDES__
 * battery charger (DE-A82)
 * 2 Lumix battery packs (DMW-BCJ13E)
 * stiff leather camera case
 * fixed deluxe auto-open lenscap JJC ALC-5B
 
-## M-Audio Firewire 410 Soundcard
-<img src="img/sale/MAudio01.jpg" alt="MAudio Firewire 410" style="width: 300px;"/>
-<img src="img/sale/MAudio02.jpg" alt="MAudio Firewire 410" style="width: 300px;"/>
-<img src="img/sale/MAudio03.jpg" alt="MAudio Firewire 410" style="width: 300px;"/>
+# M-Audio Firewire 410 Soundcard
+<a href="img/sale/MAudio01.jpg"><img src="img/sale/MAudio01.jpg" alt="MAudio Firewire 410" style="width: 600px;"/></a>
+<a href="img/sale/MAudio02.jpg"><img src="img/sale/MAudio02.jpg" alt="MAudio Firewire 410" style="width: 300px;"/></a>
+<a href="img/sale/MAudio03.jpg"><img src="img/sale/MAudio03.jpg" alt="MAudio Firewire 410" style="width: 300px;"/></a>
 
-## Beringer Xenyx Mixer
-
-
-
-
-# Hand & Power Tools
-
-## Dremel 300 + Acessories
-* Dremel 300
-* Case/Bag
-* Bits & Accessories
-* Dremel Workstand / Drill press
-* Dremel line & circle cutting / routing attachment
+# Beringer Xenyx Mixer
