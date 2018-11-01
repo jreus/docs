@@ -1,6 +1,6 @@
 ---
 title: Garage Sale
-description: A list of things I'm selling or getting rid of. Make a bid
+description: Items from my studio that are up for sale
 display_gitinfo: false
 layout: default
 header: img/sale/LCDs01.jpg
@@ -71,4 +71,15 @@ __INCLUDES__
 <a href="img/sale/MAudio02.jpg"><img src="img/sale/MAudio02.jpg" alt="MAudio Firewire 410" style="width: 300px;"/></a>
 <a href="img/sale/MAudio03.jpg"><img src="img/sale/MAudio03.jpg" alt="MAudio Firewire 410" style="width: 300px;"/></a>
 
-# Beringer Xenyx Mixer
+# Beringer Xenyx Mixers
+__Xenyx 1002FX__
+<a href="img/sale/xenyx1002fx.jpg"><img src="img/sale/xenyx1002fx.jpg" alt="Beringer Xenyx1002fx" style="width: 600px;"/></a>
+
+
+__Xenyx 802__
+<a href="img/sale/xenyx802.jpg"><img src="img/sale/xenyx802.jpg" alt="Beringer Xenyx802" style="width: 600px;"/></a>
+
+
+# Incandescent Light Bulbs (lot)
+
+# Mains power cable (many meters, lot)
